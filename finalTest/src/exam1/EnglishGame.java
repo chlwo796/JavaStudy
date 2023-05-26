@@ -1,4 +1,4 @@
-package finalTest;
+package exam1;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,10 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class EnglishGame {
-	static Scanner scanner = null;
+	static Scanner scanner = null; 
+	// static 변수를 사용하지 않겠다고 하는 경우
+	// main()에서 바디객체를(자신) 생성해 놓는다.
+	// 이후 인스턴스메소드를 호출한다.
 	public static void main(String[] args) {
 		// 단어맞추기 게임
 		// 과일이름을 영어단어와 한글 뜻을 배열에 5개 저장하기
@@ -29,9 +32,8 @@ public class EnglishGame {
 		}
 		System.out.println();
 		System.out.println("========================================"); // 시작메뉴
-		
 		while(true) {
-			System.out.println();
+			System.out.println();https://github.com/chlwo796/JavaStudy.git
 			System.out.println("1번 놀이 = 영어단어를쳐봥");
 			System.out.println("2번 놀이 = 단어를맞춰보장");
 			System.out.println("0번 = 종료");

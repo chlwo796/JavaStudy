@@ -1,4 +1,4 @@
-package finalTest;
+package exam1;
 
 public class MaxMinArrayTest {
 	

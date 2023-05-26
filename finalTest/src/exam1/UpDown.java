@@ -1,4 +1,4 @@
-package finalTest;
+package exam1;
 
 import java.util.Scanner;
 
@@ -6,7 +6,6 @@ public class UpDown {
 	public static void main(String[] args) {
 		// 랜덤 숫자를 만들고, 사용자가 그 숫자를 맞추기
 
-	
 		Scanner scanner = new Scanner(System.in);
 		String message = "업다운게임!!!!!!!!!!!\n숫자를입력해주세용~~종료=0";
 		String upMessage = "업!!!!!!!!";
